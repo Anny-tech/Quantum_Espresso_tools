@@ -1,1 +1,2 @@
 These python codes can be used as input file generators for Autonomous Computing using Quantum Espresso. Can be combined with slurm/pbs platforms for calculations. The necessary changes can be made directly inside the generators.
+Can be modified (itself/in combination with bash) according to usage for a chain of calculations. A simple bash code will be uploaded later to support the usage of these file generators. 
