@@ -1,2 +1,5 @@
-These python codes can be used as input file generators for Autonomous Computing using Quantum Espresso. Can be combined with slurm/pbs platforms for calculations. The necessary changes can be made directly inside the generators.
+1. These python codes can be used as input file generators for Autonomous Computing using Quantum Espresso: ['using_ase.py', 'relax.py', 'scf.py', 'nscf.py'].
+2. This code can be used to extract relaxed structure coordinates from scf calculation if relaxed output is not available or corrupted:  'qe_scf_2_cif.py'
+
+Can be combined with slurm/pbs platforms for calculations. The necessary changes can be made directly inside the generators.
 Can be modified (itself/in combination with bash) according to usage for a chain of calculations. A simple bash code will be uploaded later to support the usage of these file generators. 
